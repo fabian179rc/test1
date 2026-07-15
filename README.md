@@ -5,6 +5,7 @@ Catálogo profesional de productos de Higiene y Seguridad Ocupacional construido
 ## 🚀 Instalación Rápida
 
 ### Requisitos previos
+
 - Node.js 14+ (descargar desde https://nodejs.org/)
 - npm o yarn
 
@@ -15,11 +16,13 @@ Catálogo profesional de productos de Higiene y Seguridad Ocupacional construido
    - Abre terminal/CMD en esa carpeta
 
 2. **Instalar dependencias**
+
    ```bash
    npm install
    ```
 
 3. **Ejecutar servidor de desarrollo**
+
    ```bash
    npm run dev
    ```
@@ -87,10 +90,10 @@ const products = [
     fullDescription: "Descripción completa",
     url: "https://link-del-producto.com",
     mockupGradient: "linear-gradient(135deg, #color1 0%, #color2 100%)",
-    icon: "Emoji"
+    icon: "Emoji",
   },
   // ... más productos
-]
+];
 ```
 
 ### Cambiar colores y estilos
@@ -104,6 +107,7 @@ Todos los estilos están en **inline CSS** dentro de los componentes. Busca y re
 ## 📦 Compilar para subir a hosting
 
 1. Ejecuta:
+
    ```bash
    npm run build
    ```
@@ -113,11 +117,13 @@ Todos los estilos están en **inline CSS** dentro de los componentes. Busca y re
 ## 🌐 Desplegar en Vercel (Gratuito)
 
 1. Instala Vercel CLI:
+
    ```bash
    npm install -g vercel
    ```
 
 2. Desde la carpeta del proyecto:
+
    ```bash
    vercel
    ```
@@ -134,25 +140,29 @@ Todos los estilos están en **inline CSS** dentro de los componentes. Busca y re
 ## 🐛 Solucionar problemas
 
 **Error: "node_modules not found"**
+
 ```bash
 npm install
 ```
 
 **Error: "Port 3000 already in use"**
+
 ```bash
 npm run dev -- --port 3001
 ```
 
 **Error: "React is not defined"**
+
 - El proyecto ya incluye todos los imports necesarios
 - No hagas cambios en los imports de React
 
 ## 📧 Soporte
 
 Para soporte técnico, revisa:
+
 - [Documentación de Vite](https://vitejs.dev/)
 - [Documentación de React](https://react.dev/)
 
 ---
 
-**© 2024 Sistema Maestro HyS** - Soluciones profesionales en Higiene y Seguridad Ocupacional
+**© 2026 Sistema Maestro HyS** - Soluciones profesionales en Higiene y Seguridad Ocupacional
